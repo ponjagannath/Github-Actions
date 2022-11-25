@@ -1,4 +1,4 @@
-name: two jobs Workflow
+name: two jobs in sequence Workflow
 on: workflow_dispatch
 jobs:
   first-job:
