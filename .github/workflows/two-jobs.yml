@@ -1,0 +1,13 @@
+name: two jobs Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print job details
+        run: echo "This is first job."
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print job details
+        run: echo "This is second job."
