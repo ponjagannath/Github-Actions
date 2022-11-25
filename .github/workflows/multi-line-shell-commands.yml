@@ -1,0 +1,12 @@
+name: multi line shell commands
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: |
+          echo "hello world."
+          echo "Hai Pon Jagannath"
+          echo "I have to succeed"
+          echo "So help me God"
